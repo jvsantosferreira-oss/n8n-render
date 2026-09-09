@@ -2,5 +2,6 @@ FROM n8nio/n8n:latest
 
 ENV PORT=10000
 ENV N8N_PORT=10000
+ENV NODE_OPTIONS="--max-old-space-size=384"
 
 EXPOSE 10000
